@@ -1,4 +1,10 @@
-# config.py
+import re
+from os import getenv
+
+from dotenv import load_dotenv
+from pyrogram import filters
+
+load_dotenv()
 
 API_ID = "27838385"         # Telegram API ID from https://my.telegram.org
 API_HASH = "0710bd2a89a41c3506f98f7e6fd7294a"      # Telegram API Hash from https://my.telegram.org
