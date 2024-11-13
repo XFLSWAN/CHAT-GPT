@@ -4,8 +4,10 @@ asyncio
 beautifulsoup4
 dnspython
 ffmpeg-python
-gitpythonhac
-
+gitpython
+hachoir
+heroku3
+motor
 pillow==10.0.1
 psutil
 py-tgcalls==0.9.7
