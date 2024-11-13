@@ -6,6 +6,7 @@ from pytgcalls.types.input_stream import AudioPiped
 from pyrogram import Client
 from pyrogram.types import Message
 from youtube_dl import YoutubeDL
+from config import API_ID, API_HASH, BOT_TOKEN, SESSION_NAME
 
 # Initialize the Pyrogram Client and PyTgCalls
 API_ID = 'YOUR_API_ID'
