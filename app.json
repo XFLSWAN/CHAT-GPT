@@ -1,7 +1,7 @@
 {
   "name": "Telegram Group Video Chat Music Bot",
   "description": "A Telegram bot for playing music in group voice chats.",
-  "repository": "https://github.com/your-username/your-repo",
+  "repository": "https://github.com/XFLSWAN/CHAT-GPT",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
