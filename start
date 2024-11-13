@@ -1,15 +1,1 @@
-#!/bin/bash
-
-# Ensure environment variables are set
-if [ -z "$API_ID" ] || [ -z "$API_HASH" ] || [ -z "$BOT_TOKEN" ] || [ -z "$SESSION_NAME" ]; then
-  echo "Error: One or more environment variables are not set."
-  echo "Make sure API_ID, API_HASH, BOT_TOKEN, and SESSION_NAME are set."
-  exit 1
-fi
-
-# Install required packages
-pip install -r requirements.txt
-
-# Start the bot
-echo "Starting Telegram music bot..."
-python bot.py
+python3 -m _main_.py
