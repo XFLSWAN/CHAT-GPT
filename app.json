@@ -1,0 +1,29 @@
+{
+  "name": "Telegram Group Video Chat Music Bot",
+  "description": "A Telegram bot for playing music in group voice chats.",
+  "repository": "https://github.com/your-username/your-repo",
+  "stack": "heroku-22",
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "SESSION_NAME": {
+      "description": "A unique Pyrogram session name for userbot",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
